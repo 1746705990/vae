@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 页面未找到</title>
+    <!-- 使用你项目中的图标 -->
+    <link rel="icon" href="https://cdn.bio.link/uploads/profile_pictures/2024-01-07/INFFc2aqsL42wAALtduWMJSBQxSJNatt.png" type="image/png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* 垂直居中 */
+            min-height: 100vh;
+            /* 保持和主页一致的背景渐变 */
+            background: linear-gradient(135deg, #1e2a78 0%, #ff3e9d 100%);
+            padding: 20px;
+            color: #fff;
+            overflow: hidden; /* 隐藏滚动条 */
+        }
+
+        .error-container {
+            /* 保持和主页一致的毛玻璃效果 */
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            text-align: center;
+        }
+
+        .error-container h1 {
+            font-size: 6rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            /* 增加一点文字阴影 */
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .error-container p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        /* 保持和主页一致的按钮风格 */
+        .home-btn {
+            display: inline-block;
+            text-decoration: none;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 50px;
+            background: linear-gradient(45deg, #ff3e9d, #0d25b9);
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .home-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(45deg, #0d25b9, #ff3e9d);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="error-container">
+        <h1>404</h1>
+        <p>页面未找到</p>
+        <p style="font-size: 1rem; opacity: 0.8;">你所寻找的页面可能已被移动、删除或不存在。</p>
+        
+        <a href="/" class="home-btn">返回首页</a>
+    </div>
+
+</body>
+</html>
